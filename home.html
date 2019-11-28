@@ -20,6 +20,6 @@
   <p class="lead">Overwrite any webpage with ease!</p>
   <hr class="my-4">
   <p>Document.write uses console.log to inject a js code snippet into the console. This is similar to inspect element as your code will only be a local change. Drag the rewrite button to your bookmarks bar!</p>
-  <a class="btn btn-primary btn-lg" href="javascript:var code = prompt("Code here"); document.write(code);" role="button">Rewrite</a>
+  <a class="btn btn-primary btn-lg" href="javascript:(function () { var code = prompt("Code here"); document.write(code); })();" role="button">Rewrite</a>
 </div>
 </body></html>
